@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://ticketshop.barcelona/images/camp_nou_tickets.jpg');
+    background-position: cover;
+    background-size: cover;
+  }
+
+.soccer-field {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: 50px auto;
+}
+.soccer-field{
+    color: white;
+}
+
+.center-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.goal-post {
+    width: 5px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.image-container {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin: 20px auto;
+
+}
+
+.image-container img {
+   
+    width: 150px;
+    height: auto;
+}
+
+.soccer-field {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 57.14px 57.14px 57.14px 57.14px 57.14px 57.14px 57.14px;
+    gap: 2px;
+    position: relative;
+    background-image: url("https://img.freepik.com/vecteurs-premium/illustration-vectorielle-soccer-field-vue-dessus_95169-213.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+  }
+  
+  .grid-item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .div1 { grid-area: 4 / 12 / 5 / 13; }
+  .div2 { grid-area: 3 / 10 / 4 / 11; }
+  .div3 { grid-area: 5 / 10 / 6 / 11; }
+  .div4 { grid-area: 7 / 10 / 8 / 11; }
+  .div5 { grid-area: 1 / 10 / 2 / 11; }
+  .div6 { grid-area: 3 / 6 / 4 / 7; }
+  .div7 { grid-area: 5 / 6 / 6 / 7; }
+  .div8 { grid-area: 2 / 3 / 3 / 4; }
+  .div9 { grid-area: 6 / 3 / 7 / 4; }
+  .div10 { grid-area: 4 / 1 / 5 / 2; }
+  .div11 { grid-area: 4 / 8 / 5 / 9; }
+
+  #imgtest {
+/* position: relative; */
+    display: flex;
+   
+  }
+  /* #contain{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .img {
+    /* position: absolute;  */
+  /*  */
+    /* position: absolute; */
+    /* padding: 10px;*/
+    cursor: move; 
+    z-index: 9;
+    
+  }
+  img {
+    border-radius: 50%;
+    width: 70px;;
+     height: 70px;;
+  }
+ .title{
+  font-family: 'Righteous', cursive;
+  font-size: 80px;
+  font-size: 72px;
+}
+ 
